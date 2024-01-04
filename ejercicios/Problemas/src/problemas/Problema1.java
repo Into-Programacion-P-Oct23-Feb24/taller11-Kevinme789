@@ -20,6 +20,15 @@ public class Problema1 {
     }
 
     public static void imprimirDatos(int[][] datos) {
+        for (int f = 0; f < datos.length; f++) {
+            for (int c = 0; c < datos.length; c++) {
+                if (datos[f][c] % 2 == 0) {
+                    System.out.println(datos[f][c]);
+                }
+
+            }
+
+        }
 
     }
 
